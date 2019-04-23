@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>聊天详情</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link rel="stylesheet" href="amazeui/css/amazeui.min.css"/>
+<link rel="stylesheet" href="default/style.css"/>
+<script src="amazeui/js/jquery.min.js"></script>
+<script src="amazeui/js/amazeui.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+	<header data-am-widget="header" class="am-header am-header-default my-header">
+      <div class="am-header-left am-header-nav">
+        <a href="#left-link" class="">
+          <i class="am-header-icon am-icon-chevron-left"></i>
+        </a>
+      </div>
+      <h1 class="am-header-title">
+        <a href="#title-link" class="">聊天详情</a>
+      </h1>
+      <div class="am-header-right am-header-nav">
+        <a href="#right-link" class="">
+          <i class="am-header-icon  am-icon-home"></i>
+        </a>
+      </div>
+    </header>
+    <div class="my-nav-bar">
+    	<ol class="am-breadcrumb">
+          <li><a href="#">首页</a></li>
+          <li><a href="#">用户中心</a></li>
+          <li><a href="#">聊天详情</a></li>
+        </ol>
+    </div>
+    <div class="am-cf am-padding-sm" >
+    	<ul class="am-comments-list am-comments-list-flip">
+            <li class="am-comment">
+              <a href="">
+                <img class="am-comment-avatar" src="default/img1.jpg" alt=""/> <!-- 头像 -->
+              </a>
+            
+              <div class="am-comment-main">
+                <header class="am-comment-hd">
+                  <div class="am-comment-meta">
+                    <a href="#link-to-user" class="am-comment-author">昵称</a>（他的用户名）
+                    <time datetime="2013-07-27T04:54:29-07:00" title="最后的通信时间" class="am-fr">2014-7-12 15:30</time>
+                  </div>
+                </header>
+                <div class="am-comment-bd">
+                  那，那是一封写给南部母亲的信。我茫然站在骑楼下，我又看到永远的樱子走到街心。
+                </div>
+              </div>
+            </li>
+            <li class="am-comment">
+              <a href="">
+                <img class="am-comment-avatar" src="default/img1.jpg" alt=""/> <!-- 头像 -->
+              </a>
+            
+              <div class="am-comment-main">
+                <header class="am-comment-hd">
+                  <div class="am-comment-meta">
+                    <a href="#link-to-user" class="am-comment-author">昵称</a>（他的用户名）
+                    <time datetime="2013-07-27T04:54:29-07:00" title="最后的通信时间" class="am-fr">2014-7-12 15:30</time>
+                  </div>
+                </header>
+                <div class="am-comment-bd">
+                  其实雨下得并不大，却是一生一世中最大的一场雨。而那封信是这样写的，年轻的樱子知不知道呢？
+                </div
+              ></div>
+            </li>
+            <li class="am-comment am-comment-flip"><!-- 头像显示在右手边 am-comment-flip -->
+              <a href="">
+                <img class="am-comment-avatar" src="default/img1.jpg" alt=""/> <!-- 头像 -->
+              </a>
+            
+              <div class="am-comment-main">
+                <header class="am-comment-hd">
+                  <div class="am-comment-meta">
+                    <a href="#link-to-user" class="am-comment-author">昵称</a>（他的用户名）
+                    <time datetime="2013-07-27T04:54:29-07:00" title="最后的通信时间" class="am-fr">2014-7-12 15:30</time>
+                  </div>
+                </header>
+                <div class="am-comment-bd">
+                  She's gone 我早知道
+                </div>
+              </div>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="am-g am-cf">
+    	
+	<form class="am-form" role="form">
+    	<div class="am-u-sm-9"><input type="test" class="am-form-field" placeholder="请输入聊天内容"></div>
+        <div class="am-u-sm-3"><button type="submit" class="am-btn am-btn-danger am-radius">发送</button></div>
+    </form>
+    
+    </div>
+
+    <!--底部-->
+    <div data-am-widget="navbar" class="am-navbar am-cf my-nav-footer " id="">
+      <ul class="am-navbar-nav am-cf am-avg-sm-4 my-footer-ul">
+        <li>
+          <a href="/wap/" class="">
+            <span class="am-icon-home"></span>
+            <span class="am-navbar-label">首页</span>
+          </a>
+        </li>
+        <li>
+          <a href="###" class="">
+            <span class=" am-icon-phone"></span>
+            <span class="am-navbar-label">电话</span>
+          </a>
+        </li>
+        <li>
+          <a href="###" class="">
+            <span class=" am-icon-comments"></span>
+            <span class="am-navbar-label">聊天</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="">
+            <span class=" am-icon-map-marker"></span>
+            <span class="am-navbar-label">地图</span>
+          </a>
+        </li>
+        <li style="position:relative">
+          <a href="javascript:;" onClick="showFooterNav();" class="">
+            <span class="am-icon-user"></span>
+            <span class="am-navbar-label">会员</span>
+          </a>
+          <div class="footer-nav" id="footNav">
+          	<span class=" am-icon-bank"><a href="#">买家中心</a></span>
+            <span class="am-icon-suitcase"><a href="#">卖家中心</a></span>
+            <span class="am-icon-usd"><a href="#">我的钱包</a></span>
+            <span class="am-icon-user"><a href="#">个人资料</a></span>
+            <span class="am-icon-th-list"><a href="#">帮助中心</a></span>
+            <span class="am-icon-comments"><a href="#">消息中心</a></span>
+            <span class="am-icon-power-off"><a href="#">安全退出</a></span>
+          </div>
+        </li>
+      </ul>
+      <script>
+	  	function showFooterNav(){
+			$("#footNav").toggle();
+		}
+	  </script>
+    </div>
+</div>
+</body>
+</html>
